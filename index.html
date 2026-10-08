@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio</title>
+<link rel="stylesheet" href="CSS & JS/style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <div class="avatar">JR</div>
+    <div class="brand-text">
+      <p class="brand-name">Jezriel Margarette L. Ramos</p>
+      <p class="brand-sub">BSCS · 3rd Year</p>
+    </div>
+  </div>
+
+  <nav class="nav">
+    <button class="nav-item" data-view="about">About Me</button>
+    <button class="nav-item active" data-view="quiz">Quizzes</button>
+    <button class="nav-item" data-view="activity">Activities</button>
+    <button class="nav-item" data-view="exam">Examinations</button>
+  </nav>
+</header>
+
+<main class="main">
+
+  <section class="about-card" id="about">
+    <div class="about-avatar" id="about-avatar">
+      <div class="avatar-photo">
+        <img id="avatar-img" alt="Juan Dela Cruz" style="display:none;">
+        <span class="avatar-fallback" id="avatar-fallback">JR</span>
+      </div>
+    </div>
+    <div class="about-body">
+      <p class="eyebrow">About Me</p>
+      <h2>Hello, I'm Jezriel.</h2>
+      <p class="about-text">
+        A student passionate about learning and building things step by step.
+        This page collects my quizzes, activities, and examinations.
+      </p>
+
+      <div class="info-strip">
+        <div class="info-item">
+          <span class="info-label">Program</span>
+          <span class="info-value">BS CS</span>
+        </div>
+        <div class="info-item">
+          <span class="info-label">Year</span>
+          <span class="info-value">3rd Year</span>
+        </div>
+        <div class="info-item">
+          <span class="info-label">Section</span>
+          <span class="info-value">BSCS-3B</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="portfolio">
+    <div class="portfolio-head">
+      <div>
+        <p class="eyebrow">Portfolio</p>
+        <h2 id="portfolio-title">Quizzes</h2>
+      </div>
+      <p class="hint">Tap a photo to open the gallery</p>
+    </div>
+
+    <div class="grid" id="grid"></div>
+
+    <p class="empty-state" id="empty-state" hidden>Nothing here yet. Check back once new work is posted.</p>
+  </section>
+
+</main>
+
+<div class="lightbox-overlay" id="lightbox-overlay">
+  <div class="lightbox-panel">
+    <div class="lightbox-header">
+      <span class="lightbox-eyebrow" id="lightbox-eyebrow"></span>
+      <button class="lightbox-close" id="lightbox-close" aria-label="Close">&times;</button>
+    </div>
+
+    <h3 id="lightbox-title"></h3>
+    <p class="lightbox-date" id="lightbox-date"></p>
+
+    <div class="lightbox-photo">
+      <button class="lightbox-arrow prev" id="lightbox-prev" aria-label="Previous photo">&#10094;</button>
+      <div class="lightbox-image" id="lightbox-image"></div>
+      <button class="lightbox-arrow next" id="lightbox-next" aria-label="Next photo">&#10095;</button>
+      <span class="lightbox-counter" id="lightbox-counter" hidden></span>
+    </div>
+
+    <p class="lightbox-score" id="lightbox-score"></p>
+  </div>
+</div>
+
+<div class="fullimage-overlay" id="fullimage-overlay">
+  <button class="lightbox-close" id="fullimage-close" aria-label="Close">&times;</button>
+  <img class="fullimage-img" id="fullimage-img" alt="Full size photo">
+</div>
+
+<script src="CSS & JS/script.js"></script>
+</body>
+</html>
