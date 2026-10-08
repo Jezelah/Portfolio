@@ -64,7 +64,48 @@ const portfolioItems = [
     date: "2026-08-25",
     score: "19/20",
     images: ["images/Quizzes/Quiz1_DCIT26_front.jpg", "images/Quizzes/Quiz1_DCIT26_back.jpg" ]
-  }
+  },
+
+  {
+    id: 2,
+    type: "quiz",
+    title: "Quiz 2: Requirements Analysis & Unified Modeling Language",
+    description: "Online Quiz about Requirements Analysis & Unified Modeling Language",
+    date: "2026-08-25",
+    score: "20/20",
+    images: ["images/Quizzes/RAMOS_DCIT26_QUIZ2_MIDTERM.jpg"]
+  },
+
+  {
+    id: 3,
+    type: "quiz",
+    title: "Quiz 3: The SOLID Principles",
+    description: "Online Quiz about The SOLID Principles",
+    date: "2026-10-08",
+    score: "20/20",
+    images: ["images/Quizzes/RAMOS_DCIT26_QUIZ3_MIDTERM.jpg"]
+  },
+
+  {
+    id: 4,
+    type: "quiz",
+    title: "Long Quiz: Emerging Technologies, Requirements Analysis, SOLID Principles & Design Patterns",
+    description: "Long Quiz that serves as a preparation for Midterm Examination.",
+    date: "2026-10-05",
+    score: "43/45",
+    images: ["images/Quizzes/RAMOS_DCIT26_LONGQUIZ_MIDTERM.jpg"]
+  },
+
+  {
+    id: 5,
+    type: "exam",
+    title: "Midterm Examination",
+    description: "Midterm exam about Emerging Technologies, Requirements Analysis, SOLID Principles & Design Patterns",
+    date: "2026-08-25",
+    score: "68/70",
+    images: ["images/Exams/RAMOS_DCIT26_MIDTERMS_EXAM.jpg"]
+  },
+
 ];
 
 let currentView = "quiz";
