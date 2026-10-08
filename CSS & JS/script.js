@@ -64,7 +64,6 @@ const portfolioItems = [
     date: "2026-08-25",
     score: "19/20",
     images: ["images/Quizzes/Quiz1_DCIT26_front.jpg", "images/Quizzes/Quiz1_DCIT26_back.jpg" ]
-<<<<<<< HEAD
   },
 
   {
@@ -107,9 +106,6 @@ const portfolioItems = [
     images: ["images/Exams/RAMOS_DCIT26_MIDTERMS_EXAM.jpg"]
   },
 
-=======
-  }
->>>>>>> 3a88c2cc575fdaee58b2c451aa37951164060a10
 ];
 
 let currentView = "quiz";
