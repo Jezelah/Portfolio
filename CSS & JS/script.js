@@ -83,7 +83,7 @@ const portfolioItems = [
     description: "Online Quiz about The SOLID Principles",
     date: "2026-10-08",
     score: "20/20",
-    images: ["images/Quizzes/RAMOS_DCIT26_QUIZ3_MIDTERM.jpg"]
+    images: ["images/Quizzes/RAMOS_DCIT26_QUIZ3_MIDTERMS.jpg"]
   },
 
   {
